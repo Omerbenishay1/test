@@ -1,0 +1,1 @@
+. "C:\Users\t-abenishay\Downloads\grpcurl_1.8.7_windows_x86_64\grpcurl.exe" -insecure -d '{\"input\": \"Omer\"}' localhost:54482 grpcServer.AtpGrpc/EchoMessage | Out-File -FilePath C:\Users\t-abenishay\Desktop\example.txt
